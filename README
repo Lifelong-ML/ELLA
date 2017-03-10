@@ -1,0 +1,52 @@
+EFFICIENT LIFELONG LEARNING ALGORITHM (ELLA)
+
+Version 1.0  (July 3, 2013)
+
+Copyright (c) 2013  Paul Ruvolo & Eric Eaton
+
+The copyright extends to all implementation files for ELLA under this distribution.
+
+This program is free software; you can redistribute it and/or modify it under the terms 
+of the GNU General Public License Version 3 
+
+ 
+
+BUILDING
+
+The ELLA code is written in pure matlab and thus does not need to be built.
+However, ELLA does have a dependency on the Sparse Additive Modeling Toolbox of
+Julien Mairal et al. (http://spams-devel.gforge.inria.fr/).  In order to use
+ELLA one must first go to the subdirectory 'externalLibs/spams-matlab' and
+follow the instructions for building this toolbox.
+
+
+
+RUNNING THE CODE
+
+We have included three demos for utilizing the different aspects of the ELLA
+software.  The demo files are called:
+	(1) runExperiment
+	(2) runExperimentActiveTask
+	(3) runExperimentActiveTaskTargeted
+
+
+
+CITING OUR WORK
+
+If you use or adapt this code, please cite the following papers:
+
+Paul Ruvolo & Eric Eaton. (2013). ELLA: An efficient lifelong learning algorithm. In Proceedings of the 30th International Conference on Machine Learning.  Atlanta, GA, June.
+
+Paul Ruvolo & Eric Eaton. (2013). Scalable lifelong learning with active task selection. In Proceedings of the 27th AAAI Conference on Artificial Intelligence.  Bellevue, WA, July.
+
+
+
+DATA
+
+This release includes the landmine data set for use by the demonstration scripts. 
+The landmine data was originally described in:
+
+Xue, Y., Liao, X., Carin, L., & Krishnapuram, B. (2007). Multi-task learning for classification with Dirichlet process priors. The Journal of Machine Learning Research, 8, 35-63.
+
+Please cite this paper if you use the landmine data set in your own work.
+
